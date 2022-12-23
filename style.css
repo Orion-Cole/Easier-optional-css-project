@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(78, 128, 255);
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 30px 30px 1fr 1fr 1fr;
+    padding-left: 50px;
+    font-size: 120%;
+    box-sizing: border-box;
+}
+
+#pageTitle {
+    grid-column: span 2;
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+nav {
+    background-color: rgb(78, 186, 78);
+    margin: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    grid-column: span 2;
+}
+
+nav > h2 {
+    margin: 10px;
+}
+
+section {
+    grid-column: span 2;
+}
+
+#section1 {
+    display: flex;
+}
+
+#section1 > p {
+    margin-left: 50px;
+}
